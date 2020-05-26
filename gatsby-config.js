@@ -42,5 +42,12 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
+    {
+      resolve: 'gatsby-plugin-snipcart',
+      options: {
+        apiKey: process.env.SNIPCART_API_KEY,
+        autopop: true,
+      },
+    },
   ],
 };

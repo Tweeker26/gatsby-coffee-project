@@ -56,7 +56,7 @@ class Navbar extends Component {
                 </Link>
               </li>
             ))}
-            <li className="nav-item ml-sm-5">
+            <li className="nav-item ml-sm-5 snipcart-checkout">
               <FaCartArrowDown className="cart-icon" />
             </li>
           </ul>

@@ -9,11 +9,11 @@
 body {
   background: var(--mainWhite);
   color: var(--mainDark);
-  font-family: "montserrat", monospace !important;
+  font-family: Montserrat, monospace !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Courier New", Courier, monospace !important;
+  font-family: Ubuntu, monospace !important;
   letter-spacing: 0.25rem !important;
 }
 
@@ -51,4 +51,8 @@ h1, h2, h3, h4, h5, h6 {
 .footer {
   background-color: var(--mainBrown);
   color: var(--mainYellow);
+}
+
+.menu, .contact {
+  background: var(--mainGrey);
 }

@@ -60,13 +60,13 @@ const Menu = ({ items }) => {
                 <div className="flex-grow-1 px-3">
                   <div className="d-flex justify-content-between">
                     <h6 className="mb-0">
-                      <small>{node.title}</small>
+                      <b>{node.title}</b>
                     </h6>
                     <h6 className="mb-0 text-yellow">
                       <small>${node.price}</small>
                     </h6>
                   </div>
-                  <p className="text-muted">
+                  <p className="text-body">
                     <small>{node.description.description}</small>
                   </p>
                 </div>
